@@ -6,11 +6,11 @@ import os
 
 # Database configuration (same as validator script)
 DB_CONFIG = {
-    "dbname": "bgpdb",
-    "user": "postgres",
-    "password": "Akshat@6708",
+    "dbname": "data_base_name",
+    "user": "user_name",
+    "password": "your_password",
     "host": "localhost",
-    "port": "5433"
+    "port": "port_number"
 }
 
 def get_db_connection():

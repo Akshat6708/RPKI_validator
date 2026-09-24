@@ -14,11 +14,11 @@ RIS_LIVE_URL = "wss://ris-live.ripe.net/v1/ws/"
 RUN_DURATION_MINUTES = 5
 
 DB_CONFIG = {
-    "dbname": "bgpdb",
-    "user": "postgres",
-    "password": "Akshat@6708",
+    "dbname": "database name",
+    "user": "username",
+    "password": "your_password",
     "host": "localhost",
-    "port": "5433"
+    "port": "enter port number"
 }
 
 task_queue = queue.Queue()
